@@ -211,3 +211,16 @@ img { vertical-align: middle; }
     padding: 20px;
     border-radius: 30px;
 }
+
+
+
+@media screen and (max-width: 480px) {
+    .und-panel p {
+        width: 60%; 
+        padding: 5%; 
+        border:1px; 
+        box-sizing: border-box;
+    }
+}
+
+
