@@ -213,13 +213,30 @@ img { vertical-align: middle; }
 }
 
 
+/* レスポンシブ */
+
+
+@media (max-width: 1000px) {
+    .und-panel {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+
+   .und-panel p {
+      color: blue;
+      font-size: 15px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
 
 @media screen and (max-width: 480px) {
     .und-panel p {
-        width: 60%; 
+        width: 100%;
+        box-sizing: border-box;
         padding: 5%; 
         border:1px; 
-        box-sizing: border-box;
     }
 }
 
