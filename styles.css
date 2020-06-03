@@ -94,6 +94,12 @@ img { vertical-align: middle; }
     color: rgb(255, 255, 255);
 }
 
+.workimg {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* ハイライト */
 .work-section .tabs-highlight {
