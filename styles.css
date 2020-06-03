@@ -241,7 +241,12 @@ img { vertical-align: middle; }
         width: 100%;
         box-sizing: border-box;
         padding: 5%; 
+        margin: 1px;
         border:1px; 
+    }
+     body {
+        height: 1500px;
+        background-image: url("images/backimg-1_01.png");
     }
 }
 
