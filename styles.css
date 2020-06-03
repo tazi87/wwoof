@@ -61,7 +61,7 @@ img { vertical-align: middle; }
     height: 65px;
     position: absolute;
     top: 0px;
-    left: 5px;
+    left: -100px;
     /* display: block;
     margin: 0 0 0 1px; */
     /* float: left; */
@@ -230,8 +230,7 @@ img { vertical-align: middle; }
 
 
    .und-panel p {
-      color: blue;
-      font-size: 15px;
+      font-size: 25px;
       width: 100%;
       box-sizing: border-box;
     }
