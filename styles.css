@@ -219,6 +219,22 @@ img { vertical-align: middle; }
 }
 
 
+
+
+
+.workimg { 
+    display: block !important;
+}
+.working-sp { 
+    display: none !important; 
+}
+
+
+
+
+
+
+
 /* レスポンシブ */
 
 
@@ -237,7 +253,7 @@ img { vertical-align: middle; }
 
 
 @media screen and (max-width: 480px) {
-    .und-panel p {
+/*     .und-panel p {
         width: 100%;
         box-sizing: border-box;
         padding: 5%; 
@@ -247,7 +263,35 @@ img { vertical-align: middle; }
      body {
         height: 1500px;
         background-image: url("images/backimg-1_01.png");
+} */
+
+    
+    .und-panel-width {
+        height: 1000px;
+        display: inline-block;
     }
-}
 
+    
+    .work-dtl {
+        /* margin-top: 150px; */
+        vertical-align: middle
+    }
 
+    .workimg { 
+        display: none !important;
+     }
+    .working-sp { 
+        display: block !important;
+        width: 100%;
+     }
+
+ } 
+    
+   
+    
+    
+    
+    
+    
+    
+    
